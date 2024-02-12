@@ -25,5 +25,5 @@ export default () => {
     })
   })
 
-  return <div ref={container!} />
+  return <div ref={container!} style={{height: '100vh'}} />
 }
